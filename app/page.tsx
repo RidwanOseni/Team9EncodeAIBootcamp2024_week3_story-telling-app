@@ -21,6 +21,7 @@ export default function Chat() {
     { label: "GPT-3.5 Turbo", value: "gpt-3.5-turbo" },
     { label: "GPT-3.5 Turbo (16k)", value: "gpt-3.5-turbo-16k" },
     { label: "GPT-4", value: "gpt-4" },
+    { label: "Local", value: "local" },
   ];
 
   const [state, setState] = useState({
